@@ -1,5 +1,5 @@
 import Link from "next/link";
-import ArrowIcon from "@/components/icons/ArrowIcon";
+import ArrowIcon from "@/components/Icons/ArrowIcon";
 
 const footerMenus = [
   {
