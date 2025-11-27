@@ -37,8 +37,8 @@ export default function Footer() {
       </div>
 
       {/* Bottom Bar */}
-      <div className="border-t border-gray-700 text-center py-4 text-sm">
-        © {new Date().getFullYear()} MySite. All rights reserved.
+      <div className="text-center py-4 text-sm font-light">
+         © Copyright {new Date().getFullYear()} Benchmark Incentive And Leisure Travels Pvt Ltd | All Rights Reserved | Web Design Company Nextwebi.com
       </div>
     </footer>
   );

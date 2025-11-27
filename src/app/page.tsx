@@ -9,7 +9,7 @@ import WhyBenchmark from "@/components/WhyBenchmark";
 export default function Home() {
   return (
     <div>
-      <Navbar />
+   
       <Hero />
       <Affiliations />
       <Testimonials />

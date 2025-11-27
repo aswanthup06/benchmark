@@ -2,7 +2,7 @@ import React from "react";
 
 export default function WhyBenchmark() {
   return (
-    <div className="grid grid-cols-2">
+    <div className="grid grid-cols-1 md:grid-cols-2">
       <div>
         <h1>Why Benchmark Holidays</h1>
         <p className="font-bold">
@@ -18,7 +18,16 @@ export default function WhyBenchmark() {
         </p>
       </div>
       <div>
-        <iframe width="670" height="378" src="https://www.youtube.com/embed/VmeUepgH0zE" title="Luxury Cruise Ship Experience | Best Cruise Holidays &amp; Packages in India | Benchmark Holidays" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe
+          width="670"
+          height="378"
+          src="https://www.youtube.com/embed/VmeUepgH0zE"
+          title="Luxury Cruise Ship Experience | Best Cruise Holidays & Packages in India | Benchmark Holidays"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        ></iframe>
       </div>
     </div>
   );
