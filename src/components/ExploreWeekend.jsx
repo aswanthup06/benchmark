@@ -1,0 +1,80 @@
+import React from "react";
+
+export default function ExploreWeekend() {
+  return (
+    <div className="container max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-16 flex flex-col gap-4 items-center justify-center mb-32">
+      <div className="mb-12">
+        <h1 className="text-4xl font-bold">Explore Weekend Getaways</h1>
+        <p className="max-w-md text-center text-md">
+          Check out our Weekends getaway Packages – ideal for anyone looking to
+          have a quick holiday!
+        </p>
+      </div>
+
+      <div className="grid grid-cols-3 gap-[30px] h-[430px] w-full">
+        {/* LEFT - Traveling Humans */}
+        <div
+          className="h-full rounded-2xl bg-cover bg-center"
+          style={{
+            backgroundImage:
+              "url(https://images.unsplash.com/photo-1539635278303-d4002c07eae3?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)",
+          }}
+        />
+
+        {/* MIDDLE COLUMN */}
+        <div className="flex flex-col justify-between h-full gap-[30px]">
+          <div
+            className="h-[200px] rounded-2xl bg-cover bg-center flex items-start p-5"
+            style={{
+              backgroundImage:
+                "url(https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=1200&q=80)",
+            }}
+          >
+            <span className="text-white font-semibold text-lg drop-shadow-lg">
+              Yercaud
+            </span>
+          </div>
+
+          <div
+            className="h-[200px] rounded-2xl bg-cover bg-center flex items-start p-5"
+            style={{
+              backgroundImage:
+                "url(https://images.unsplash.com/photo-1593693397690-362cb9666fc2?auto=format&fit=crop&w=1200&q=80)",
+            }}
+          >
+            <span className="text-white font-semibold text-lg drop-shadow-lg">
+              Chikmagalur
+            </span>
+          </div>
+        </div>
+
+        {/* RIGHT COLUMN */}
+        <div className="flex flex-col justify-between h-full gap-[30px]">
+          <div
+            className="h-[200px] rounded-2xl bg-cover bg-center flex items-start p-5"
+            style={{
+              backgroundImage:
+                "url(https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80)",
+            }}
+          >
+            <span className="text-white font-semibold text-lg drop-shadow-lg">
+              Mahabaleshwar
+            </span>
+          </div>
+
+          <div
+            className="h-[200px] rounded-2xl bg-cover bg-center flex items-start p-5"
+            style={{
+              backgroundImage:
+                "url(https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1200&q=80)",
+            }}
+          >
+            <span className="text-white font-semibold text-lg drop-shadow-lg">
+              Coorg
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}

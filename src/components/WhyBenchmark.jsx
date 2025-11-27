@@ -2,7 +2,7 @@ import React from "react";
 
 export default function WhyBenchmark() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2">
+    <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-16 grid grid-cols-1 md:grid-cols-2 gap-8">
       <div>
         <h1>Why Benchmark Holidays</h1>
         <p className="font-bold">
@@ -19,7 +19,7 @@ export default function WhyBenchmark() {
       </div>
       <div>
         <iframe
-          width="670"
+          width="100%"
           height="378"
           src="https://www.youtube.com/embed/VmeUepgH0zE"
           title="Luxury Cruise Ship Experience | Best Cruise Holidays & Packages in India | Benchmark Holidays"

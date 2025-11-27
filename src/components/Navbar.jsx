@@ -6,11 +6,22 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="text-black px-6 py-4">
-      <div className="max-w-7xl mx-auto flex justify-between items-center">
+    <nav className="text-black py-4">
+      <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-16 flex justify-between items-center">
 
         {/* Logo */}
-        <h1 className="text-2xl font-bold">MySite</h1>
+
+        <div className='flex gap-2'>
+
+          <img className='rounded-full w-12 h-12' src="images/logoB.png" alt="" />
+
+          <div>
+            <h1 className="text-xl font-bold">BENCHMARK</h1>
+            <h5 className='text-xs'>Incentive & Leisure Travels </h5>
+          </div>
+
+        </div>
+        
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-8 text-sm font-medium">
@@ -19,6 +30,8 @@ export default function Navbar() {
           <li><Link href="/services" className="hover:text-gray-400">Services</Link></li>
           <li><Link href="/contact" className="hover:text-gray-400">Contact</Link></li>
         </ul>
+
+        <button className='text-white bg-[#FFC107] rounded-md px-6 py-4'>Quick Enquiry</button>
 
         {/* Mobile Button */}
         <button 
