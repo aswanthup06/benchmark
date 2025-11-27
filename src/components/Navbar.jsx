@@ -31,7 +31,7 @@ export default function Navbar() {
           <li><Link href="/contact" className="hover:text-gray-400">Contact</Link></li>
         </ul>
 
-        <button className='text-white bg-[#FFC107] rounded-md px-6 py-4'>Quick Enquiry</button>
+        <button className='text-white bg-[#FFC107] rounded-md px-6 h-12'>Quick Enquiry</button>
 
         {/* Mobile Button */}
         <button 

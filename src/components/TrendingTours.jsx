@@ -10,7 +10,7 @@ export default function TrendingTours() {
       <p className='w-[30%] text-center text-md'>Check out our Weekends getaway Packages – ideal for anyone looking to have a quick holiday !</p>
     </div>
 
-   <div className='flex justify-between'>
+   <div className='flex flex-col md:flex-row justify-between'>
     <div>
       <img src="images/left.png" alt="" />
     </div>

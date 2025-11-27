@@ -11,7 +11,7 @@ export default function Affiliations() {
           have a quick holiday !
         </p>
       </div>
-      <div className="grid grid-cols-5 gap-8">
+      <div className="grid grid-cols-2 md:grid-cols-3  lg:grid-cols-5 gap-8">
         <div className="bg-white rounded-md h-[100px] flex justify-center hover:shadow-md duration-500 p-2 border border-slate-200">
           <img
             src="/images/company1.jpg"

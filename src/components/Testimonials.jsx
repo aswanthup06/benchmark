@@ -1,4 +1,5 @@
 import React from "react";
+import ArrowIcon from "@/components/Icons/ArrowIcon";
 
 export default function Testimonials() {
   return (
@@ -10,7 +11,7 @@ export default function Testimonials() {
         <h2 className="font-bold text-2xl">What our Customers Say</h2>
         <h2 className="font-bold text-2xl mb-8">About us</h2>
        
-             <button className="bg-[#FFC107] py-4 px-8 text-white rounded-md">Read More</button>
+             <button className="bg-[#FFC107] h-12 px-8 text-white rounded-md cursor-pointer">Read More</button>
       </div>
 
       <div>
@@ -41,8 +42,8 @@ export default function Testimonials() {
           </div>
 
           <div className="flex gap-2">
-              <button className="bg-[#FFC107] py-4 px-8 text-white rounded-md">Read More</button>
-              <button className="bg-[#FFC107] py-4 px-8 text-white rounded-md">Read More</button>
+              <button className="bg-[#FFC107] h-12 w-12 text-white rounded-md flex items-center justify-center cursor-pointer"><ArrowIcon className="w-6 h-6 text-white -scale-x-100" /></button>
+              <button className="bg-[#FFC107] h-12 w-12 text-white rounded-md flex items-center justify-center cursor-pointer"> <ArrowIcon className="w-6 h-6 text-white" /></button>
           </div>
         </div>
       </div>

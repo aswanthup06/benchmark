@@ -5,8 +5,8 @@ import TelegramIcon from "@/components/Icons/TelegramIcon";
 export default function LastSec() {
   return (
     <div className="w-full mx-auto  mb-32">
-      <div className="flex gap-8 justify-center">
-        <div className=" bg-[url('/images/lastone.png')] bg-cover bg-center bg-no-repeat w-[573px] h-[248px] rounded-2xl p-6">
+      <div className="flex flex-wrap gap-12 justify-center">
+        <div className=" bg-[url('/images/lastone.png')] bg-cover bg-center bg-no-repeat w-[540px] h-[220px] rounded-2xl p-6">
           <div className="h-full flex flex-col justify-between">
             <div>
               <h2 className="text-white text-2xl font-bold mb-1">
@@ -18,7 +18,7 @@ export default function LastSec() {
               <p className="text-white text-sm font-light"> book now!</p>
             </div>
             <div className="flex gap-3 items-center">
-              <button className="bg-[#FFC107] h-12 px-6 text-white rounded-md">
+              <button className="bg-[#FFC107] h-12 px-6 text-white rounded-md cursor-pointer">
                 Quick Enquiry
               </button>
               <div>
@@ -33,7 +33,7 @@ export default function LastSec() {
           </div>
         </div>
 
-        <div className=" bg-[url('/images/lasttwo.png')] bg-cover bg-center bg-no-repeat w-[573px] h-[248px] rounded-2xl p-6">
+        <div className=" bg-[url('/images/lasttwo.png')] bg-cover bg-center bg-no-repeat w-[540px] h-[220px] rounded-2xl p-6">
           <div className="h-full flex flex-col justify-between">
             <div>
               <h2 className="text-white text-2xl font-bold mb-1">
@@ -48,7 +48,7 @@ export default function LastSec() {
               <div className="h-12">
                    <input className="bg-white h-full rounded-sm" type="text" />
               </div>
-              <button className="bg-[#FFC107] h-12 w-12 flex items-center justify-center text-white rounded-sm">
+              <button className="bg-[#FFC107] h-12 w-12 flex items-center justify-center text-white rounded-sm cursor-pointer">
                 <TelegramIcon className="w-6 h-6 text-white" />
 
               </button>

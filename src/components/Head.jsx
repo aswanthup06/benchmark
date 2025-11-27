@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
 
 
-    <div className="flex justify-between items-center bg-black py-4 w-full px-2 sm:px-4 md:px-4 lg:px-6">
+    <div className="hidden md:flex justify-between items-center bg-black py-4 w-full px-2 sm:px-4 md:px-4 lg:px-6 ">
       <div className="text-white  flex gap-8 ">
         <div className="flex gap-2 items-center">
           <div><MailIcon className="w-5 h-5 text-yellow-400"/></div>
