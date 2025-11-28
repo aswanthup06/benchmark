@@ -13,7 +13,7 @@ export default function ExploreWeekend() {
 
 
       <div className="flex justify-end">
-   <button className="mb-8 bg-[#FFC107] hover:bg-amber-500 font-light text-sm duration-500 h-12 px-6 text-white rounded-md cursor-pointer">
+   <button  style={{ fontWeight:350 }} className="mb-8 bg-[#FFC107] hover:bg-amber-500  text-sm duration-500 h-12 px-6 text-white rounded-md cursor-pointer">
                 View More
               </button>
       </div>

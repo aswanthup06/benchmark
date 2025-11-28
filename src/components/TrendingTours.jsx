@@ -12,17 +12,15 @@ export default function TrendingTours() {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 ">
-
-
         <div className="flex items-center  justify-center ">
-          <img className="h-[300px] md:h-[400px] w-auto" src="images/left.png" alt="" />
+          <img
+            className="h-[300px] md:h-[400px] w-auto"
+            src="images/left.png"
+            alt=""
+          />
         </div>
 
-
-
         <div className="flex items-center md:justify-end lg:justify-center">
-
-
           <div className="relative  flex-col w-full lg:w-fit md:flex-row flex justify-end lg:flex-col gap-6 h-fit">
             <div className="w-full lg:w-[350px] h-[190px] relative">
               <img
@@ -30,7 +28,10 @@ export default function TrendingTours() {
                 src="https://images.unsplash.com/photo-1709154958618-8d6b27b598bc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="Maldives"
               />
-              <div className="absolute top-4 right-0 bg-white text-black px-3 py-2 rounded-l-md text-sm">
+              <div
+                style={{ fontWeight: 500 }}
+                className="absolute top-4 right-0 bg-white text-black px-3 py-2 rounded-l-md text-sm"
+              >
                 Luxury Cruise
               </div>
             </div>
@@ -42,7 +43,10 @@ export default function TrendingTours() {
                   src="https://images.unsplash.com/photo-1560935044-1f25ce5380e9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="Switzerland"
                 />
-                <div className="absolute  bottom-4 left-0 bg-white text-black px-3 py-2 rounded-r-md text-sm">
+                <div
+                  style={{ fontWeight: 500 }}
+                  className="absolute  bottom-4 left-0 bg-white text-black px-3 py-2 rounded-r-md text-sm"
+                >
                   Japan Blossom
                 </div>
               </div>
@@ -54,7 +58,10 @@ export default function TrendingTours() {
                 src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80"
                 alt="Bali"
               />
-              <div className="absolute bottom-4 right-0 bg-white text-black px-3 py-2 rounded-l-md text-sm">
+              <div
+                style={{ fontWeight: 500 }}
+                className="absolute bottom-4 right-0 bg-white text-black px-3 py-2 rounded-l-md text-sm"
+              >
                 Rare Scandinavia
               </div>
             </div>

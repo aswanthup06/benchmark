@@ -75,6 +75,7 @@ export default function Hero() {
   />
 
   <input
+    style={{ fontWeight:350 }}
     type="text"
     placeholder="Enter your name"
     className="
@@ -104,10 +105,12 @@ export default function Hero() {
   />
 
   <input
+   style={{ fontWeight:350 }} 
     type="text"
+
     placeholder="No of Days (Min)"
     className="
-      text-sm font-light
+      text-sm 
       bg-[#F2F2F2]
       w-full h-12
       pl-10 pr-3
@@ -130,6 +133,7 @@ export default function Hero() {
   />
 
   <input
+   style={{ fontWeight:350 }}
     type="text"
     placeholder="No of Days (Max)"
     className="
@@ -157,6 +161,7 @@ export default function Hero() {
   />
 
   <input
+   style={{ fontWeight:350 }}
     type="text"
     placeholder="Date"
     className="
@@ -183,6 +188,7 @@ export default function Hero() {
   />
 
   <input
+   style={{ fontWeight:350 }}
     type="text"
     placeholder="All Category Type"
     className="
@@ -201,7 +207,7 @@ export default function Hero() {
   />
 </div>
 
-                <button className=" w-full h-12 rounded-md text-white bg-[#FFC107] hover:bg-amber-500 font-light text-sm duration-500 cursor-pointer">
+                <button  style={{ fontWeight:400 }} className=" w-full h-12 rounded-md text-white bg-[#FFC107] hover:bg-amber-500  text-sm duration-500 cursor-pointer">
                   Search
                 </button>
               </div>

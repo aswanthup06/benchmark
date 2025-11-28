@@ -13,17 +13,17 @@ export default function LastSec() {
               <h2 className="text-white text-2xl font-bold mb-1">
                 Ready for your Vacation?
               </h2>
-              <p className="text-white text-sm font-light">
+              <p  style={{ fontWeight:350 }} className="text-white text-sm ">
                 our travel experts can help you
               </p>
-              <p className="text-white text-sm font-light"> book now!</p>
+              <p  style={{ fontWeight:350 }} className="text-white text-sm "> book now!</p>
             </div>
             <div className="flex gap-3 items-center">
-              <button className=" bg-[#FFC107] hover:bg-amber-500 font-light text-sm duration-500 h-12 px-6 text-white rounded-md cursor-pointer">
+              <button  style={{ fontWeight:400 }} className=" bg-[#FFC107] hover:bg-amber-500 text-sm duration-500 h-12 px-6 text-white rounded-md cursor-pointer">
                 Quick Enquiry
               </button>
               <div>
-                <h3 className="text-white text-sm font-light">
+                <h3  style={{ fontWeight:350 }} className="text-white text-sm">
                   Speak to our experts
                 </h3>
                 <h2 className="text-[#FFC107] text-2xl font-bold">
@@ -40,10 +40,10 @@ export default function LastSec() {
               <h2 className="text-white text-2xl font-bold mb-1">
                 To Get Our Latest offers
               </h2>
-              <p className="text-white text-sm font-light">
+              <p  style={{ fontWeight:350 }} className="text-white text-sm ">
                As our very name suggests – “Benchmark” means
               </p>
-              <p className="text-white text-sm font-light"> “Standards”. Our team is dedicated </p>
+              <p  style={{ fontWeight:350 }} className="text-white text-sm "> “Standards”. Our team is dedicated </p>
             </div>
             <div className="flex gap-3 items-center">
               <div className="h-12">
@@ -56,6 +56,7 @@ export default function LastSec() {
   />
 
   <input
+  style={{ fontWeight:350 }}
     type="text"
     placeholder="Enter Your Mail"
     className="

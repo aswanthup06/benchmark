@@ -12,19 +12,19 @@ export default function Navbar() {
       <div className="text-white  flex gap-8 ">
         <div className="flex gap-2 items-center">
           <div><MailIcon className="w-5 h-5 text-yellow-400"/></div>
-          <h2 className="font-light text-[14px]">enquiry@benchmarkilt.com</h2>
+          <h2  style={{ fontWeight:350 }} className="text-[14px]">enquiry@benchmarkilt.com</h2>
         </div>
 
         <div className="flex gap-2 items-center">
           <div><PhoneIcon className="w-5 h-5 text-yellow-400" /></div>
-          <h2 className="font-light text-[14px]">+91 8040 844 000</h2>
+          <h2  style={{ fontWeight:350 }} className="text-[14px]">+91 8040 844 000</h2>
         </div>
       </div>
       <div className="flex gap-8 ">
-        <h3 className="text-white font-light text-[14px]">About Us</h3>
-        <h3 className="text-white font-light text-[14px]">Gift Cards</h3>
-        <h3 className="text-white font-light text-[14px]">Blogs</h3>
-        <h3 className="text-white font-light text-[14px]">Contact Us</h3>
+        <h3  style={{ fontWeight:350 }} className="text-white text-[14px]">About Us</h3>
+        <h3  style={{ fontWeight:350 }} className="text-white text-[14px]">Gift Cards</h3>
+        <h3  style={{ fontWeight:350 }} className="text-white text-[14px]">Blogs</h3>
+        <h3  style={{ fontWeight:350 }} className="text-white text-[14px]">Contact Us</h3>
       </div>
     </div>
   );

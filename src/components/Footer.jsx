@@ -83,7 +83,7 @@ export default function Footer() {
           </ul>
         </div>
       </div>
-      <div className="text-center py-4 text-sm font-light bg-white/4">
+      <div  style={{ fontWeight:350 }} className="text-center py-4 text-sm  bg-white/4">
         © Copyright {new Date().getFullYear()}{" "}
         <span className="text-yellow-400">
           Benchmark Incentive And Leisure{" "}

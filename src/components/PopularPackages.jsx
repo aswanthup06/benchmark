@@ -52,13 +52,13 @@ export default function PopularPackages() {
                <button className="mb-8 flex items-center gap-3 bg-black hover:bg-black/90  duration-500 h-12 px-6  rounded-md cursor-pointer">
                
                
-               <span className="text-white font-light text-sm">International</span> 
+               <span  style={{ fontWeight:350 }} className="text-white text-sm">International</span> 
 
 <ArrowIcon className="w-4 h-4 text-yellow-400 rotate-90" />
 
 
               </button>
-   <button className="mb-8 bg-[#FFC107] hover:bg-amber-500 font-light text-sm duration-500 h-12 px-6 text-white rounded-md cursor-pointer">
+   <button  style={{ fontWeight:350 }} className="mb-8 bg-[#FFC107] hover:bg-amber-500text-sm duration-500 h-12 px-6 text-white rounded-md cursor-pointer">
                 View More
               </button>
       </div>

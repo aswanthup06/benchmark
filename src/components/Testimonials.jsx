@@ -64,7 +64,7 @@ export default function Testimonials() {
           <h2 className="font-bold text-2xl">What our Customers Say</h2>
           <h2 className="font-bold text-2xl mb-8">About us</h2>
 
-          <button className="h-12 px-8 text-white bg-[#FFC107] hover:bg-amber-500 font-light text-sm duration-500 rounded-md">
+          <button  style={{ fontWeight:350 }} className="h-12 px-8 text-white bg-[#FFC107] hover:bg-amber-500  text-sm duration-500 rounded-md">
             Read More
           </button>
         </div>

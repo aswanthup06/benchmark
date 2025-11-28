@@ -19,7 +19,7 @@ export default function Navbar() {
         </div>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex gap-8 text-sm font-medium">
+        <ul className="hidden md:flex gap-8 text-base font-medium">
           <li><Link href="/" className="hover:text-gray-400">Home</Link></li>
           <li><Link href="/about" className="hover:text-gray-400">About</Link></li>
           <li><Link href="/services" className="hover:text-gray-400">Services</Link></li>
@@ -27,7 +27,7 @@ export default function Navbar() {
         </ul>
 
         {/* Desktop Enquiry Button */}
-        <button className="hidden md:block text-white bg-[#FFC107] hover:bg-amber-500 font-light text-sm duration-500 cursor-pointer rounded-md px-6 h-12">
+        <button  style={{ fontWeight:400 }} className="hidden md:block text-white bg-[#FFC107] hover:bg-amber-500 font-light text-sm duration-500 cursor-pointer rounded-md px-6 h-12">
           Quick Enquiry
         </button>
 

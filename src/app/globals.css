@@ -1,42 +1,76 @@
 @import "tailwindcss";
 
+/* THIN */
 @font-face {
   font-family: 'Lufga';
-  src: url('/fonts/LufgaThin.ttf') format('ttf');
+  src: url('/fonts/LufgaThin.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
+  font-display: swap;
 }
 
+/* LIGHT */
 @font-face {
   font-family: 'Lufga';
-  src: url('/fonts/LufgaRegular.ttf') format('ttf');
+  src: url('/fonts/LufgaLight.ttf') format('truetype');
+  font-weight: 350;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* REGULAR */
+@font-face {
+  font-family: 'Lufga';
+  src: url('/fonts/LufgaRegular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
+/* MEDIUM */
 @font-face {
   font-family: 'Lufga';
-  src: url('/fonts/LufgaMedium.ttf') format('ttf');
+  src: url('/fonts/LufgaMedium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
 }
 
+/* SEMIBOLD */
 @font-face {
   font-family: 'Lufga';
-  src: url('/fonts/LufgaSemiBold.ttf') format('ttf');
+  src: url('/fonts/LufgaSemiBold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
+  font-display: swap;
 }
 
+/* BOLD */
 @font-face {
   font-family: 'Lufga';
-  src: url('/fonts/LufgaBold.ttf') format('ttf');
+  src: url('/fonts/LufgaBold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }
 
+/* EXTRA BOLD */
+@font-face {
+  font-family: 'Lufga';
+  src: url('/fonts/LufgaExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
 
-
+/* BLACK */
+@font-face {
+  font-family: 'Lufga';
+  src: url('/fonts/LufgaBlack.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
 
 :root {
   --background: #ffffff;
@@ -54,15 +88,13 @@ body {
   scrollbar-width: none;     /* Firefox */
 }
 
-
-
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: 'Lufga', sans-serif;
 }
 
-
+/* your custom range */
 @media (min-width: 1020px) and (max-width: 1200px) {
   .img-ab {
     left: -80px;
