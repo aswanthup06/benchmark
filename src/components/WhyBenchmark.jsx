@@ -2,7 +2,7 @@ import React from "react";
 
 export default function WhyBenchmark() {
   return (
-    <div className="px-4 sm:px-6 md:px-8 lg:px-28 grid grid-cols-1 md:grid-cols-2 gap-8 mb-32">
+    <div className="px-4 sm:px-6 md:px-8 lg:px-28 grid grid-cols-1 md:grid-cols-2 gap-8 mb-14 md:mb-24 lg:mb-32">
       <div>
         <h1 className="font-bold text-2xl mb-4">Why Benchmark Holidays</h1>
         <p className="font-sm">

@@ -8,7 +8,7 @@ import CalendarIcon from "@/components/Icons/CalendarIcon";
 
 export default function Hero() {
   return (
-    <div className="mb-32">
+    <div className="mb-14 md:mb-24 lg:mb-32">
       <div className="h-fit pb-6 md:h-[800px] bg-[url('/images/hero1.jpg')] bg-cover bg-center bg-no-repeat">
         <Navbar />
 

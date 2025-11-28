@@ -61,3 +61,10 @@ body {
   color: var(--foreground);
   font-family: 'Lufga', sans-serif;
 }
+
+
+@media (min-width: 1020px) and (max-width: 1200px) {
+  .img-ab {
+    left: -80px;
+  }
+}

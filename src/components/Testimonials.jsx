@@ -55,7 +55,7 @@ export default function Testimonials() {
   const data = testimonials[current];
 
   return (
-    <div className="px-4 sm:px-6 md:px-8 lg:px-28 mb-32">
+    <div className="px-4 sm:px-6 md:px-8 lg:px-28 mb-14 md:mb-24 lg:mb-32">
       <div className="grid w-full grid-cols-1 md:grid-cols-2 bg-[#FDF2ED] p-12 rounded-3xl">
 
         {/* LEFT */}

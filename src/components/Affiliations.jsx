@@ -10,7 +10,7 @@ const companies = [
 
 export default function Affiliations() {
   return (
-    <div className="px-4 sm:px-6 md:px-8 lg:px-28 mb-32">
+    <div className="px-4 sm:px-6 md:px-8 lg:px-28 mb-14 md:mb-24 lg:mb-32">
       <div className="w-full flex flex-col gap-4 items-center justify-center mb-20">
         <h1 className="text-4xl font-bold">Our Affiliations</h1>
         <p className="max-w-md text-center text-md">
