@@ -1,4 +1,5 @@
 import React from "react";
+import ArrowIcon from "./Icons/ArrowIcon";
 
 const packages = [
   {
@@ -45,6 +46,21 @@ export default function PopularPackages() {
           Check out our Weekend getaway Packages – ideal for anyone looking to
           have a quick holiday!
         </p>
+      </div>
+
+           <div className="flex justify-between">
+               <button className="mb-8 flex items-center gap-3 bg-black hover:bg-black/90  duration-500 h-12 px-6  rounded-md cursor-pointer">
+               
+               
+               <span className="text-white font-light text-sm">International</span> 
+
+<ArrowIcon className="w-4 h-4 text-yellow-400 rotate-90" />
+
+
+              </button>
+   <button className="mb-8 bg-[#FFC107] hover:bg-amber-500 font-light text-sm duration-500 h-12 px-6 text-white rounded-md cursor-pointer">
+                View More
+              </button>
       </div>
 
       {/* Packages Grid */}

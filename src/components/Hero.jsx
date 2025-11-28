@@ -201,7 +201,7 @@ export default function Hero() {
   />
 </div>
 
-                <button className="bg-[#FFC107] w-full text-white h-12 rounded-md">
+                <button className=" w-full h-12 rounded-md text-white bg-[#FFC107] hover:bg-amber-500 font-light text-sm duration-500 cursor-pointer">
                   Search
                 </button>
               </div>
