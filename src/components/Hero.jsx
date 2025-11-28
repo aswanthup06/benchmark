@@ -8,7 +8,9 @@ export default function Hero() {
       <div className="h-fit pb-6 md:h-[800px] bg-[url('/images/hero1.jpg')] bg-cover bg-center bg-no-repeat">
         <Navbar />
 
-        <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-4 flex flex-col md:flex-row justify-between mt-24 gap-8">
+      
+
+        <div className="flex flex-col md:flex-row justify-between mt-24 gap-8 px-4 sm:px-6 md:px-8 lg:px-28">
           <div className="flex flex-col justify-between">
             <div className="relative">
               <div className="relative  z-20">
@@ -47,7 +49,7 @@ export default function Hero() {
           </div>
 
           <div>
-            <div className="bg-white p-8 rounded-2xl w-full md:w-[488px]">
+            <div className="bg-white p-8 rounded-2xl w-full md:max-w-[488px]">
               <h3 className="text-md font-bold mb-4">
                 Search your Dream Holiday
               </h3>
@@ -171,6 +173,9 @@ export default function Hero() {
             </div>
           </div>
         </div>
+
+
+
       </div>
     </div>
   );

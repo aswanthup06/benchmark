@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ExploreWeekend() {
   return (
-    <div className="container max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-16  mb-32">
+    <div className="px-4 sm:px-6 md:px-8 lg:px-28  mb-32">
       <div className="mb-12 flex flex-col gap-4 items-center justify-center">
         <h1 className="text-4xl font-bold">Explore Weekend Getaways</h1>
         <p className="max-w-md text-center text-md">

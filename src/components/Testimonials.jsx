@@ -4,7 +4,7 @@ import ArrowIcon from "@/components/Icons/ArrowIcon";
 export default function Testimonials() {
   return (
 
-    <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-16  mb-32"> 
+    <div className="px-4 sm:px-6 md:px-8 lg:px-28  mb-32"> 
     <div className="grid w-full grid-cols-1 md:grid-cols-2 bg-[#FDF2ED] p-12 mt-12 rounded-3xl">
       <div>
         <h4>Guest Experiences</h4>
@@ -14,7 +14,7 @@ export default function Testimonials() {
              <button className="bg-[#FFC107] h-12 px-8 text-white rounded-md cursor-pointer">Read More</button>
       </div>
 
-      <div>
+      <div className="mt-8 md:mt-0">
         <div></div>
 
         <div>
@@ -25,8 +25,8 @@ export default function Testimonials() {
           </p>
         </div>
 
-        <div className="flex justify-between">
-          <div className="flex gap-6">
+        <div className="flex justify-between mt-4 md:mt-6">
+          <div className="flex gap-6 ">
             <img
               className="h-14 w-14 rounded-full object-cover"
               src="https://images.unsplash.com/photo-1531891437562-4301cf35b7e4?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

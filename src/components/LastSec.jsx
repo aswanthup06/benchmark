@@ -4,7 +4,7 @@ import TelegramIcon from "@/components/Icons/TelegramIcon";
 
 export default function LastSec() {
   return (
-    <div className="w-full mx-auto  mb-32">
+    <div className="w-full px-4 sm:px-6 md:px-8 lg:px-28  mb-32">
       <div className="flex flex-wrap gap-12 justify-center">
         <div className=" bg-[url('/images/lastone.png')] bg-cover bg-center bg-no-repeat w-[540px] h-[220px] rounded-2xl p-6">
           <div className="h-full flex flex-col justify-between">

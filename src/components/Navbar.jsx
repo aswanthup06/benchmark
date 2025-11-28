@@ -7,7 +7,7 @@ export default function Navbar() {
 
   return (
     <nav className="text-black py-4">
-      <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-16 flex justify-between items-center">
+      <div className="px-4 sm:px-6 md:px-8 lg:px-28 flex justify-between items-center">
 
         {/* Logo */}
 

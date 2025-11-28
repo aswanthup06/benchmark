@@ -45,7 +45,7 @@ const footerMenus = [
 export default function Footer() {
   return (
     <footer className="bg-black text-white">
-      <div className="container mx-auto px-4 sm:px-6 md:px-8 lg:px-16 py-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+      <div className="px-4 sm:px-6 md:px-8 lg:px-28 py-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
         {footerMenus.map((menu, index) => (
           <div key={index}>
             <h3 className="text-xl font-semibold mb-4 relative inline-block">

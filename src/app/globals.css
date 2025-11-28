@@ -23,7 +23,14 @@
 
 @font-face {
   font-family: 'Lufga';
-  src: url('/fonts/Lufga-Bold.ttf') format('ttf');
+  src: url('/fonts/LufgaSemiBold.ttf') format('ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lufga';
+  src: url('/fonts/LufgaBold.ttf') format('ttf');
   font-weight: 700;
   font-style: normal;
 }
